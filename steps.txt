@@ -1,0 +1,19 @@
+1. create environment
+conda create -n myenv python=3.6
+
+2. Activate the environment
+activate <env name>
+
+3. Open the jupyter notebook from that directory
+jupyter notebook
+
+4. create requirements.txt file
+pip freeze > requirements.txt
+
+5. Install all the necessary libraries
+using pip
+
+6. In anaconda prompt go to the directory where the project is and run 
+python app.py
+
+7. Any missing libraries, install them
